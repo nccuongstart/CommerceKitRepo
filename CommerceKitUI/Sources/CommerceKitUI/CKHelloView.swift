@@ -15,14 +15,13 @@ public struct CKHelloView: View {
     @available(macOS 10.15, *)
     public var body: some View {
         VStack(spacing: 12) {
-          
-                Image(systemName: "cart")
-                    .font(.system(size: 44, weight: .semibold))
+            Image(systemName: "cart")
+                .font(.system(size: 44, weight: .semibold))
 
             Text("Xin chào từ CommerceKitUI 👋")
                 .font(.headline)
-            }
-        
+        }
+
         .padding()
     }
 }
