@@ -1,10 +1,109 @@
-# Xcode
-DerivedData/
+## -------------------------------------
+## macOS
+## -------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## -------------------------------------
+## Xcode
+## -------------------------------------
+# User settings & data
 xcuserdata/
 *.xcuserstate
+*.xcscmblueprint
 
-# SwiftPM
+# Build products
+build/
+DerivedData/
+
+# Package dependencies cache
+.swiftpm
 .build/
 
-# macOS
-.DS_Store
+# Index
+index.noindex/
+
+# CoreData generated
+*.xccheckout
+*.moved-aside
+*.xcuserdatad
+*.xcworkspace/xcuserdata/
+
+## -------------------------------------
+## Swift Package Manager
+## -------------------------------------
+# SPM artifacts & cache
+.swiftpm/
+.build/
+
+## -------------------------------------
+## CocoaPods
+## -------------------------------------
+Pods/
+Podfile.lock
+
+## -------------------------------------
+## Carthage
+## -------------------------------------
+Carthage/Build/
+
+## -------------------------------------
+## Fastlane
+## -------------------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+## -------------------------------------
+## Archives & Exported apps
+## -------------------------------------
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## -------------------------------------
+## Playground
+## -------------------------------------
+timeline.xctimeline
+playground.xcworkspace
+
+## -------------------------------------
+## Other
+## -------------------------------------
+# Temporary
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# SwiftPM generated Xcode project
+Package.resolved
