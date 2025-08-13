@@ -19,4 +19,7 @@
    <FileRef
       location = "group:.swiftformat">
    </FileRef>
+   <FileRef
+      location = "group:.gitignore">
+   </FileRef>
 </Workspace>
