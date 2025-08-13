@@ -107,3 +107,9 @@ playground.xcworkspace
 
 # SwiftPM generated Xcode project
 Package.resolved
+# --- Allow tracking shared schemes for Swift Packages ---
+!**/.swiftpm/
+!**/.swiftpm/xcode/
+!**/.swiftpm/xcode/xcshareddata/
+!**/.swiftpm/xcode/xcshareddata/xcschemes/
+!**/.swiftpm/xcode/xcshareddata/xcschemes/*.xcscheme
