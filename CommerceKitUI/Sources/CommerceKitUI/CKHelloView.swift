@@ -29,7 +29,7 @@ public struct CKHelloView: View {
                     .foregroundStyle(.secondary)
             } else {
                 // Fallback on earlier versions
-            };if #available(macOS 12.0, *) {
+            }; if #available(macOS 12.0, *) {
                 Text("Nếu bạn nhìn thấy màn hình này, mọi thứ đã nối đúng!")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
