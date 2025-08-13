@@ -5,8 +5,8 @@
 //  Created by nccuong on 8/13/25.
 //
 
-import SwiftUI
 import CommerceKitUI
+import SwiftUI
 
 struct ContentView: View {
     var body: some View {

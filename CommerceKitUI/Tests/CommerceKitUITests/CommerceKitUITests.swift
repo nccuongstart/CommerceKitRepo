@@ -1,5 +1,5 @@
-import XCTest
 @testable import CommerceKitUI
+import XCTest
 
 final class CommerceKitUITests: XCTestCase {
     func testExample() throws {
