@@ -1,0 +1,41 @@
+
+disabled_rules: # Luật tắt đi vì không quá quan trọng
+  - trailing_whitespace # Không bắt lỗi khi thừa khoảng trắng ở cuối dòng
+  - todo                # Không bắt lỗi khi có TODO
+  - large_tuple         # Không bắt lỗi tuple quá to
+
+opt_in_rules: # Luật thêm vào để check kỹ hơn
+  - empty_count         # Khuyến khích dùng .isEmpty thay vì .count == 0
+  - force_unwrapping    # Cảnh báo khi ép mở optional (!)
+  - closure_end_indentation # Check thụt lề closure
+  - file_header         # Khuyến khích có phần header file
+
+included: # Thư mục sẽ được lint
+  - CommerceKitCore
+  - CommerceKitAI
+  - CommerceKitUI
+  - StoreApp
+
+excluded: # Thư mục bỏ qua
+  - .build
+  - DerivedData
+
+line_length: 120 # Số ký tự tối đa trên 1 dòng
+
+identifier_name:
+  min_length: 2 # Tên biến phải dài hơn 1 ký tự
+
+force_cast: warning # Cảnh báo khi dùng as! (ép kiểu nguy hiểm)
+force_try:
+  severity: warning # Cảnh báo khi dùng try! (ép chạy có thể crash)
+
+type_body_length:
+  warning: 300
+  error: 500
+
+file_length:
+  warning: 800
+  error: 1200
+
+reporter: "xcode" # Hiện lỗi trong Xcode
+

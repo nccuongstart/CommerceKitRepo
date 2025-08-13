@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:StoreApp/StoreApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommerceKitAI">
+   </FileRef>
+   <FileRef
+      location = "group:CommerceKitUI">
+   </FileRef>
+   <FileRef
+      location = "group:CommerceKitCore">
+   </FileRef>
+   <FileRef
+      location = "group:.swiftlint.yml">
+   </FileRef>
+   <FileRef
+      location = "group:.swiftformat">
+   </FileRef>
+</Workspace>

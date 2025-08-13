@@ -1,0 +1,8 @@
+--swiftversion 6.1
+--indent 4
+--maxwidth 120
+--wraparguments afterfirst
+--stripunusedargs closure-only
+--disable redundantReturn
+--self remove
+
